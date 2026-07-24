@@ -1,0 +1,19 @@
+unlike the bubble sort, what the selection sort is it divides the array into sorted and unsorted part,
+initializes the first part as sorted and then check for the smallest among 
+the remaining unsorted section.
+This means the in section sort:
+outer loop is from 0 to n-1;
+initialize the first element and 
+inner loop from i+1 to n;
+check condition;
+end of inner loop and then swap and then end of the inner loop
+for(i=0;i<n-1;i++)
+{
+    int smallest=i;
+    for(j=i+1;j<n;j++)
+    {
+        if(arr[j]<arr[smallest])
+        smallest=j;
+    }
+    arr[i]=smallest;
+}
