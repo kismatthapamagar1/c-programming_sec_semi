@@ -1,0 +1,13 @@
+Bubble sort is the sorting mechanism in which the adjacent members are checked and then replaced if another is greater
+outer loop 0 to n-1;
+innerloop 0 to n-i-1;
+
+
+bubble sorting is n^2 box so we can optimize the code by using this:
+bool isSwap=false;// firstly initialized to false like we initialize any variable 0 to avoid garbage value
+loop chalaune and 
+if(!isSwap)
+{
+    //array is sorted already;
+    return ;
+}
