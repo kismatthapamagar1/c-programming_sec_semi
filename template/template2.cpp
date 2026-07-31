@@ -22,7 +22,7 @@ t add(T x,t y){
 int main()
 {
     std::cout<<"additiion of two integer three and four is:"<<add<int,double>(3,4.11);
-    std::cout<<"additiion of two floating three and four is:"<<add<float>(3.44,4.444);
-    std::cout<<"additiion of two double three and four is:"<<add<double>(3.45,4.44);
+    std::cout<<"additiion of two floating three and four is:"<<add<float,double >(3.44,4.444);
+    std::cout<<"additiion of two double three and four is:"<<add<double,double>(3.45,4.44);
 }
 
