@@ -25,6 +25,6 @@ int main()
 		cout << "Stack is not empty" << endl;
 	cout << "Stack size is " << numbersStack.size() << endl;
 
-	system("pause>0");
+	return 0;
 }
 

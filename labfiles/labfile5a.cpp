@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>// polygon has a relation with the point not is a relationship
 
 class Point {
 private:
@@ -28,7 +28,7 @@ class Polygon {
 
 private:
     int numberOfSides;
-    Point centroid;
+    Point centroid; // data type is point yrrr
 
 public:
 
@@ -51,7 +51,7 @@ public:
     // Move polygon to new location
     void move(int dx, int dy) {
 
-        centroid.move(dx, dy);
+        centroid.move(dx, dy); //getters
     }
 };
 

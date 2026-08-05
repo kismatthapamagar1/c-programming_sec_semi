@@ -98,7 +98,7 @@ public:
 
 // Main function
 int main() {
-    Saving_account s("Ali", 1000, 5);
+    Saving_account s("kalu", 1000, 5);
     s.deposit(500);
     s.compute_interest();
     s.withdraw(300);
@@ -106,7 +106,7 @@ int main() {
 
     std::cout << "---------------------\n";
 
-    Current_account c("Ahmed", 2000);
+    Current_account c("kali", 2000);
     c.deposit(1000);
     c.withdraw(500);
     c.display();

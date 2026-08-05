@@ -18,7 +18,7 @@ public:
 };
 
 // Definition of static data member,always outside class definition
-int Counter::count = 0;
+int Counter:: count = 0;
 
 int main() {
     Counter c1, c2, c3;  // creating objects

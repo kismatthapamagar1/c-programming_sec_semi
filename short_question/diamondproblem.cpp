@@ -118,7 +118,7 @@ protected:
     std::string subject;
 
 public:
-    Teacher(std::string sub) : Person("", 0) {   // required but ignored
+    Teacher(std::string sub) : Person("",0) {   // required but ignored
         subject = sub;
     }
 

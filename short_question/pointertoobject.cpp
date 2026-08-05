@@ -52,7 +52,7 @@ int main()
     comp3.displaydata();
     ComplexNumber *ptr1;
     ptr1=&comp3;
-    cout<<"Pointer to object";
+    cout<<"Pointoid addvalueer to object";
     ptr1->displaydata();
 
 

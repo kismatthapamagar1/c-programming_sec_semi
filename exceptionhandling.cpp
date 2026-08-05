@@ -13,11 +13,11 @@ int main()
             cout<<"The required answer is "<<c;
         }
         else
-        throw(b);
+        throw"error aayo";
     }
-    catch(int n)
+    catch(const char *msg)
     {
-        cout<<"the entered value is "<<n;
+        cerr<<"the entered value is "<<msg;
 
 
     }

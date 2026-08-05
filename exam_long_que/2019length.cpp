@@ -24,7 +24,7 @@ class Length
         if(temp.inch>=12)
         {
             temp.feet+=(int)(temp.inch / 12);
-            temp.inch = temp.inch - ((int)(temp.inch / 12) * 12);
+            temp.inch = temp.inch - ((int)(temp.inch / 12) * 12);//typcasting as the % operator doesnot work with the double data type laa
         }
         return temp;
 
